@@ -15,3 +15,8 @@ crash.log
 # System
 .DS_Store
 *.swp
+
+# Python virtual env
+dashboard/api/.venv/
+dashboard/frontend/node_modules/ 
+node_modules/
