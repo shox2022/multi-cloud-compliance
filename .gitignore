@@ -1,0 +1,17 @@
+# Ignore Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Ignore sensitive files
+.env
+
+# Ignore Docker artifacts
+*.log
+*.pid
+*.sock
+
+# System
+.DS_Store
+*.swp
