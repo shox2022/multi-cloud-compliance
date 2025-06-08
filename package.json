@@ -1,0 +1,17 @@
+{
+  "name": "multi-cloud-policy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-backend": "cd dashboard/api && .venv\\Scripts\\python.exe app.py",
+    "start-frontend": "npm run dev --prefix dashboard/frontend",
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

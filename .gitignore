@@ -1,0 +1,28 @@
+# Ignore Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+
+# Ignore sensitive files
+.env
+
+# Ignore Docker artifacts
+*.log
+*.pid
+*.sock
+
+# System
+.DS_Store
+*.swp
+
+venv/
+__pycache__/
+violations.db
+
+# Node
+node_modules/
+
+# IDE
+.idea/
+.vscode/

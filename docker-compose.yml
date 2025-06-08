@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  minio-eu:
+    image: minio/minio:latest
+    command: server /data
+    ports: ["9001:9000"]
+    environment:
+      MINIO_ROOT_USER: demoadmin
+      MINIO_ROOT_PASSWORD: demoadmin123
+  minio-us:
+    image: minio/minio:latest
+    command: server /data
+    ports: ["9002:9000"]
+    environment:
+      MINIO_ROOT_USER: demoadmin
+      MINIO_ROOT_PASSWORD: demoadmin123
