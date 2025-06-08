@@ -10,16 +10,26 @@ terraform {
 provider "minio" {
   alias      = "eu"
   endpoint   = var.regions["EU"]
+<<<<<<< HEAD
   access_key = "demo"
   secret_key = "demo123"
+=======
+  access_key = "demoadmin"
+  secret_key = "demoadmin123"
+>>>>>>> feature/dashboard-backend
   insecure   = true
 }
 
 provider "minio" {
   alias      = "us"
   endpoint   = var.regions["US"]
+<<<<<<< HEAD
   access_key = "demo"
   secret_key = "demo123"
+=======
+  access_key = "demoadmin"
+  secret_key = "demoadmin123"
+>>>>>>> feature/dashboard-backend
   insecure   = true
 }
 

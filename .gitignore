@@ -16,7 +16,20 @@ crash.log
 .DS_Store
 *.swp
 
+<<<<<<< HEAD
 # Python virtual env
 dashboard/api/.venv/
 dashboard/frontend/node_modules/ 
 node_modules/
+=======
+venv/
+__pycache__/
+violations.db
+
+# Node
+node_modules/
+
+# IDE
+.idea/
+.vscode/
+>>>>>>> feature/dashboard-backend

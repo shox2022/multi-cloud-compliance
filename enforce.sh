@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 set -e
 cd terraform
+<<<<<<< HEAD
+=======
+terraform init -input=false
+>>>>>>> feature/dashboard-backend
 terraform plan -out plan.json
 terraform show -json plan.json > tfplan.json
 
